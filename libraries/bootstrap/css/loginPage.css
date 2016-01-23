@@ -1,0 +1,167 @@
+/**
+ * BxSlider v4.0 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2012
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+*/
+
+/******************************************************************************************/
+/********* CUSTOMIZATION *****************************************************************/
+/******************************************************************************************/
+/* cyrillic */
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/poiretone-regular-webfont.eot');
+  src: local('Poiret One'),
+       local('PoiretOne-Regular'),
+       url('fonts/poiretone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/poiretone-regular-webfont.woff2') format('woff2'),
+       url('fonts/poiretone-regular-webfont.woff') format('woff'),
+       url('fonts/PoiretOne-Regular.ttf') format('ttf'),
+       url('fonts/poiretone-regular-webfont.svg#poiret_oneregular') format('svg'); 
+}
+
+.login-container{
+    min-width: 960px;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-bottom:15px;
+    float: left;
+}
+
+.login-header{
+    margin-top:0px;
+    border-bottom: 2px #ccc solid;
+    padding-left:25px;
+    padding-bottom: 5px;
+    font-family: 'Poiret One';
+}
+.content-wrapper{
+    height: 100%;
+    clear: both;
+    min-width: 940px;
+    margin-top: 1%;
+
+}
+.login-area{
+    display: inline-block;
+}
+.carousal-container{
+    float: right;
+    width: 550px;
+    display: inline-block;
+}
+.login-box{
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
+    text-align: left;
+    padding:20px;
+    width:450px;
+    border: 1px solid #ddd;
+}
+.login-form{
+    margin-top: 25px;
+} 
+
+.sbutton{
+    width:100px;
+} 
+.login-subscript{
+    text-align: right;
+    clear: both;
+    margin: auto;
+    text-align: center;
+}
+.helpLinks{
+    float: right; 
+    margin-top: 20px;
+    background: #efefef;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: -2px 0 3px;
+}
+.helpLinks a{
+    padding: 10px; 
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.lgn_top, .lgn_bottom {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1c1c1+0,d6d6d6+10,e0e0e0+100 */
+    background: #c1c1c1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #c1c1c1 0%, #d6d6d6 10%, #e0e0e0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #c1c1c1 0%,#d6d6d6 10%,#e0e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #c1c1c1 0%,#d6d6d6 10%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c1c1', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+    
+}
+
+.lgn_top {
+    height:100px;
+    border-radius: 8px 8px 0 0;
+}
+.lgn_bottom {
+    height: 50px;
+    border-radius: 0 0 8px 8px;
+}
+.logo {
+    width: 175px;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+.lgn {
+    padding-top: 85px;
+    margin-bottom: 30px;
+}
+.lgn_hello, .gazel {
+    margin-left:20%;
+}
+.lgn_hello>p, .lgn_hello>h2 {
+    font-family: 'Poiret One';
+    line-height: 1.4;
+    font-size:32px;
+}
+.lgn_hello>h2 {
+    text-transform:uppercase;
+    font-weight: 900;
+    margin:0;
+}
+.login-area {
+    margin-right:20%;
+}
+/******************************************/
+@media only screen and (max-width: 600px) { /*old tablets portrait, middle smarfons portrait, iphone6 landscape*/
+    .lgn {
+        padding-top: 24px;
+    }
+    .lgn_hello>p, .lgn_hello>h2 {
+        font-family: 'Poiret One';
+        line-height: 1.2;
+        font-size:17px;
+    }
+        .lgn_hello, .gazel {
+        margin: 0 auto 40px; 
+    }
+    .login-area {
+        margin-right:0;
+        float:none !important;
+        margin:auto;
+        display:block;
+    }
+    .login-box {
+        width:280px;
+        margin: auto;
+    }
+}

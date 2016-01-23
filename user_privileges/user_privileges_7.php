@@ -1,0 +1,9 @@
+<?php
+
+
+//This is the access privilege file
+$is_admin=true;
+
+$user_info=array('user_name'=>'Aleskerov','is_admin'=>'on','user_password'=>'$1$Al000000$cU8z4j7uk0ygPUOHBJ.Rs/','confirm_password'=>'$1$Al000000$cU8z4j7uk0ygPUOHBJ.Rs/','first_name'=>'Хизри','last_name'=>'А.','roleid'=>'H2','email1'=>'hizri.charter@mail.ru','status'=>'Active','activity_view'=>'Today','lead_view'=>'Today','hour_format'=>'12','end_hour'=>'','start_hour'=>'00:00','title'=>'Гениральный директор','phone_work'=>'8(910)499-90-90','department'=>'','phone_mobile'=>'8(910)499-90-90','reports_to_id'=>'','phone_other'=>'','email2'=>'','phone_fax'=>'','secondaryemail'=>'','phone_home'=>'','date_format'=>'dd-mm-yyyy','signature'=>'','description'=>'','address_street'=>'','address_city'=>'Москва','address_state'=>'','address_postalcode'=>'','address_country'=>'Россия','accesskey'=>'Rc1JMTC6RAQrrER','time_zone'=>'Europe/Moscow','currency_id'=>'1','currency_grouping_pattern'=>'123,456,789','currency_decimal_separator'=>'.','currency_grouping_separator'=>'.','currency_symbol_placement'=>'1.0$','imagename'=>'Nc13Elua-OU.jpg','internal_mailer'=>'0','theme'=>'softed','language'=>'ru_ru','reminder_interval'=>'','phone_crm_extension'=>'','no_of_currency_decimals'=>'2','truncate_trailing_zeros'=>'1','dayoftheweek'=>'Monday','callduration'=>'5','othereventduration'=>'5','calendarsharedtype'=>'public','default_record_view'=>'Summary','leftpanelhide'=>'1','rowheight'=>'medium','defaulteventstatus'=>'Выберите один вариант','defaultactivitytype'=>'Выберите один вариант','hidecompletedevents'=>'0','is_owner'=>'1','currency_name'=>'Russia, Rubles','currency_code'=>'RUB','currency_symbol'=>'руб','conv_rate'=>'1.00000','record_id'=>'','record_module'=>'','id'=>'7');
+
+?>

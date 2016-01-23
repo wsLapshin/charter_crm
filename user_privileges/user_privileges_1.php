@@ -1,0 +1,9 @@
+<?php
+
+
+//This is the access privilege file
+$is_admin=true;
+
+$user_info=array('user_name'=>'Amirov','is_admin'=>'on','user_password'=>'$1$Am000000$5axVc1h6/Fk1OTDj7lUjb.','confirm_password'=>'$1$Am000000$5axVc1h6/Fk1OTDj7lUjb.','first_name'=>'Туран','last_name'=>'А.','roleid'=>'H2','email1'=>'turan-amirov@mail.ru','status'=>'Active','activity_view'=>'This Week','lead_view'=>'Today','hour_format'=>'24','end_hour'=>'23:00','start_hour'=>'00:00','title'=>'Основатель','phone_work'=>'89258356686','department'=>'Маркетинга','phone_mobile'=>'89258356686','reports_to_id'=>'','phone_other'=>'','email2'=>'turan-amirov@mail.ru','phone_fax'=>'','secondaryemail'=>'','phone_home'=>'','date_format'=>'dd-mm-yyyy','signature'=>'','description'=>'','address_street'=>'','address_city'=>'Москва','address_state'=>'','address_postalcode'=>'','address_country'=>'Россия','accesskey'=>'Cec9ko2FyGkOiavb','time_zone'=>'Europe/Moscow','currency_id'=>'1','currency_grouping_pattern'=>'123,456,789','currency_decimal_separator'=>'.','currency_grouping_separator'=>'&nbsp;','currency_symbol_placement'=>'1.0$','imagename'=>'туран.jpg','internal_mailer'=>'1','theme'=>'orchid','language'=>'ru_ru','reminder_interval'=>'1 Minute','phone_crm_extension'=>'','no_of_currency_decimals'=>'2','truncate_trailing_zeros'=>'1','dayoftheweek'=>'Sunday','callduration'=>'5','othereventduration'=>'5','calendarsharedtype'=>'public','default_record_view'=>'Summary','leftpanelhide'=>'1','rowheight'=>'medium','defaulteventstatus'=>'Выберите один вариант','defaultactivitytype'=>'Выберите один вариант','hidecompletedevents'=>'0','is_owner'=>'1','currency_name'=>'Russia, Rubles','currency_code'=>'RUB','currency_symbol'=>'руб','conv_rate'=>'1.00000','record_id'=>'','record_module'=>'','id'=>'1');
+
+?>
